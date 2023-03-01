@@ -45,6 +45,14 @@ public class LoginActivity extends AppCompatActivity {
                 else {
                     if (username.equals("albert") && password.equals("ggwahyu")) {
                         KL.setPref(LoginActivity.this, MainActivity.keySPusername, username);
+                        KL.setPref(LoginActivity.this, MainActivity.keySPname, "Albertus Dwi Andhika"); //SP baru
+
+                        startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                        finish();
+                    }
+                    else if (username.equals("dhika") && password.equals("gggua")) {
+                        KL.setPref(LoginActivity.this, MainActivity.keySPusername, username);
+                        KL.setPref(LoginActivity.this, MainActivity.keySPname, "Andhika"); //SP baru
 
                         startActivity(new Intent(LoginActivity.this, MainActivity.class));
                         finish();

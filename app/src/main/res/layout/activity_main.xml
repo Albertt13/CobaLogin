@@ -25,6 +25,17 @@
         android:gravity="center_horizontal"
         android:textSize="20sp"
         />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xxxxxxxxxxxxxx"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        />
     <Button
         android:id="@+id/btn_logout"
         android:layout_width="match_parent"
